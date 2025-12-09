@@ -1,0 +1,30 @@
+# Ignore all files and folders
+*
+**/
+
+# Keep only Python and Jupyter files
+!*.py
+!*.ipynb
+!.gitignore
+!README.md
+
+# Ignore common directories
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.idea/
+.vscode/
+.DS_Store
+
+# Ignore data files
+*.csv
+*.xlsx
+*.json
+*.xml
+data/
+datasets/
